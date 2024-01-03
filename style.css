@@ -41,10 +41,7 @@ nav ul li a:hover{
 }
 nav .logo{
     margin-top: 10px;
-
-}
-nav .logo a{
-    font-size: 32px;
+    font-size: 2rem;
     color: rgb(249, 133, 152);
     text-decoration: none;
     font-weight: 600;
@@ -67,13 +64,10 @@ nav .toggle{
 
 
 @media screen and (max-width:800px){
-    .wrapper{
-        width: 100%;
-    }
     nav{
         padding: 20px 40px;   
     }
-    nav .logo a{
+    nav .logo {
         font-size: 25px;
     }
     nav ul{
@@ -92,7 +86,6 @@ nav .toggle{
         display: flex;
         z-index: 1;
     }
-    
         nav ul.active{
             top:0;
             left: 0;
@@ -108,17 +101,7 @@ nav .toggle{
         }
 }
 @media screen and (max-width:500px){
-    nav .logo a{
+    nav .logo {
         font-size: 25px;
     }
-    .article h1{
-        font-size: 32px;
-        }
-        .article p{
-        font-size: 14px;
-        }
-        .article .button a{
-            padding: 10px 14px;
-        font-size: 14px;
-        }
 }
